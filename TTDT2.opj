@@ -1,0 +1,143 @@
+(ExpressProject "TTDT2"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\ttdt2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "TRUE")
+    (DRC_Report_File "D:\ORCAD\CAPTURE\TTDT2.DRC")
+    (Netlist_TAB "5")
+    (LAYOUT_Netlist_File "TTDT2.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (FALSE)
+    (LAYOUT_Units "0")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "TTDT2.NET")
+    (OTHER_Netlist_File2 "TTDT2.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "accel.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE")
+    (CrossRef_Scope "0")
+    (Crossref__Mode "0")
+    (CrossRef_Sorting "0")
+    (CrossRef_Destination_File "D:\ORCAD\CAPTURE\TTDT2.XRF")
+    (CrossRef_XY "FALSE")
+    (CrossRef_Unused "FALSE")
+    (XRF_View_Output "FALSE")
+    (FALSE)
+    (FALSE))
+  (Folder "Outputs"
+    (File ".\ttdt2.drc"
+      (Type "Report"))
+    (File ".\ttdt2.mnl"
+      (Type "LAYOUT Netlist File"))
+    (File ".\ttdt2.net"
+      (Type "Report"))
+    (File ".\ttdt2.xrf"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (LastUsedLibraryBrowseDirectory "D:\orcad\Capture\Library\PSpice")
+  (PartMRUSelector
+    (GND
+      (LibraryName "D:\CAPTURE\LIBRARY\OLDLIBS\PSPICE.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\OLDLIBS\DEVICE.OLB")
+      (DeviceIndex "0"))
+    (JUMPER
+      (FullPartName "JUMPER.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (led_7_doan
+      (FullPartName "led_7_doan.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (7447A
+      (FullPartName "7447A.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\OLDLIBS\TTL.OLB")
+      (DeviceIndex "0"))
+    (4518
+      (FullPartName "4518.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\OLDLIBS\CMOS.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ($D_HI
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (7447
+      (FullPartName "7447.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\MUXDECODER.OLB")
+      (DeviceIndex "0"))
+    (74110
+      (FullPartName "74110.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\IEC\TTL2.OLB")
+      (DeviceIndex "0"))
+    (LM555
+      (FullPartName "LM555.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\IEC\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 1065 0 399"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 0 581 -8 -31 104 1176 104 520")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\ORCAD\CAPTURE\TTDT2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
